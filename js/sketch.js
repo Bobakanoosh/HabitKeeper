@@ -55,8 +55,8 @@ function setup() {
     frameRate(60);
 
     let githubA = createA("https://github.com/Bobakanoosh/HabitKeeper/");
-    githubA.html("<img src=/../../icons/transparent.png alt='Github' style='height: 80px;'>")
-    githubA.position(0, window.innerHeight-80);
+    githubA.html("<img src=/../../icons/transparent.png alt='Github' style='height: 80px; opacity: 0.3'>")
+    githubA.position(0, window.innerHeight-85);
 
     // let img = createImg('/../icons/transparent.png');
     // img.style('height','80px');
