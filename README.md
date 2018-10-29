@@ -1,9 +1,10 @@
+![alt text](/icons/githubbanner.png)
+
 # Habit Keeper
 
 Habit Keeper is a chrome extension that allows you to interactively work towards a goal of yours. Each day you work towards your habit, you progress the day counter by one. Be careful though, if you don't keep your habit for 48 hours, you'll lose all the days you've racked up!
 
 Habit Keeper is highly customizable, allowing you to change nearly every visual aspect of the extension to fit your aesthetic needs.
-
 ## Getting Started
 
 1. Head over to the extension's home on the [chrome web store](https://chrome.google.com/webstore/detail/habit-keeper/djmemjiaekoigemohhoofehlennhcaff?hl=en), and add it to your browser. 
@@ -34,7 +35,7 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 ## License
 
-This project is licensed under the GNUv3 License - see the [LICENSE](LICENSE.md) file for details
+This project is licensed under the AGPL-3.0 License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 Thanks to p5js for making this idea possible!
