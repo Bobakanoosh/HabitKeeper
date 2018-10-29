@@ -1,0 +1,25 @@
+{
+  "name": "Habit Keeper",
+  "author": "Bobakanoosh",
+  "version": "1.0.1",
+  "manifest_version": 2,
+  "description": "Track habits each day you complete your goal. As you keep your streak going, your days rack up, making you not want to lose them!",
+
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "default_locale": "en",
+  "page_action": {
+    "default_icon": "icons/icon19.png",
+    "default_title": "Habit Keeper",
+    "default_popup": "src/page_action/page_action.html"
+  },
+  "chrome_url_overrides": {
+    "newtab": "src/override/override.html"
+  },
+  "permissions": [
+    "storage"
+  ]
+}

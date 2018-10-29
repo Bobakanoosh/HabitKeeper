@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+    background-size: 100% 100%;
+    margin: 0px;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+}
+select {
+    font-size: 30px;
+}
+#page {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    display: -webkit-flex;
+    display: flex;
+    text-align: center;
+}
+#container {
+    width: 100vw;
+    -webkit-align-self: center;
+    align-self: center;
+}
