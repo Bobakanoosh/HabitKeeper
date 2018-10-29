@@ -54,13 +54,18 @@ function setup() {
     createPresetsGui();
     frameRate(60);
 
-    let img = createImg('/../icons/transparent.png');
-    img.style('height','80px');
-    img.position(0, window.innerHeight-80);
+    let githubA = createA("https://github.com/Bobakanoosh/HabitKeeper/");
+    githubA.html("<img src=/../../icons/transparent.png alt='Github' style='height: 80px;'>")
+    githubA.position(0, window.innerHeight-80);
+
+    // let img = createImg('/../icons/transparent.png');
+    // img.style('height','80px');
+    // img.position(0, window.innerHeight-80);
+    // img.html('<a href=https://github.com/Bobakanoosh/HabitKeeper/>');
 
     let a = createA('https://www.paypal.me/Bobakanoosh', 'Donate');
     a.style('text-decoration', 'none');
-    a.style('font-size', '18px');
+    a.style('font-size', '16px');
     a.position(window.innerWidth-70, window.innerHeight-30);
 
 }
@@ -373,13 +378,13 @@ function drawCircle(color, val, mult, count) {
 
     noFill();
     strokeWeight(thickness);
-    stroke(color)
+    stroke(color);
 
     let adj = spacing*mult;
 
     if ((endDeg + 90) % 360 == 0 && count != 0) {
 
-        ellipse(w, h, radius - adj, radius - adj)
+        ellipse(w, h, radius - adj, radius - adj);
 
     } else {
 
@@ -464,7 +469,7 @@ function loadOptions() {
         thickness: 10,
         radius: 850,
         fontSize: 72,
-        dayCount: 1,
+        dayCount: 0,
         weekCount: 0,
         monthCount: 0,
         yearCount: 0,
