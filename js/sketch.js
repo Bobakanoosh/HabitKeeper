@@ -282,8 +282,8 @@ function createPresetsGui() {
 function displayMessage(msg, delay) {
 
     p = createP(msg);
-    p.position(19, 30);
-    p.style('color', '#FFFFFF');
+    p.position(19, 0);
+    p.style('color', '#9e9e9e');
     p.style('font-size', '16px');
     p.style('text-align', 'left');
     p.style('text-shadow', '-1px -1px 0 #000,\
@@ -307,8 +307,13 @@ function drawHelpText() {
     fill(255, 255, 255, 100);
     stroke(0);
     strokeWeight(1);
-    textSize(16);
-    text("Press `esc` for options!", 100, 30);
+    textSize(12);
+    text("Hold Click to start!", w, (h+fontSize/2)+5);
+    text("Press `esc` for options & to hide this text!", w, (h+fontSize/2)+20);
+    text("1st Ring: 7 Days", w, (h+fontSize/2)+35);
+    text("2nd Ring: 4 Weeks", w, (h+fontSize/2)+50);
+    text("3rd Ring: 12 Months", w, (h+fontSize/2)+65);
+    text("4th Ring: 5 Years", w, (h+fontSize/2)+80);
 }
 
 function drawText() {
